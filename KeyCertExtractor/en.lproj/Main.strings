@@ -1,0 +1,45 @@
+
+/* Class = "NSMenuItem"; title = "Key/Cert Extractor"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "Key/Cert Extractor";
+
+/* Class = "NSMenuItem"; title = "Quit KeyCertExtractor"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit KeyCertExtractor";
+
+/* Class = "NSTextFieldCell"; title = "PFX Extractor is designed to take a PFX or PKCS12 or P12 encrypted SSL key file and your associated passphrase.   With this information the tool can export either a PEM certificate or private key file; whichever you may need."; ObjectID = "5TX-tG-dWG"; */
+"5TX-tG-dWG.title" = "PFX Extractor is designed to take a PFX or PKCS12 or P12 encrypted SSL key file and your associated passphrase.   With this information the tool can export either a PEM certificate or private key file; whichever you may need.";
+
+/* Class = "NSMenuItem"; title = "About KeyCertExtractor"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About KeyCertExtractor";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSWindow"; title = "SSL Key/Cert Extractor"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "SSL Key/Cert Extractor";
+
+/* Class = "NSButtonCell"; title = "Extract Private Key"; ObjectID = "KbT-39-vr2"; */
+"KbT-39-vr2.title" = "Extract Private Key";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Hide KeyCertExtractor"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide KeyCertExtractor";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Hide Others";
+
+/* Class = "NSTextFieldCell"; title = "Passphrase"; ObjectID = "XaY-Tf-nyo"; */
+"XaY-Tf-nyo.title" = "Passphrase";
+
+/* Class = "NSTextFieldCell"; placeholderString = " Drag file you wish to convert here"; ObjectID = "ewp-JJ-Jnl"; */
+"ewp-JJ-Jnl.placeholderString" = " Drag file you wish to convert here";
+
+/* Class = "NSTextFieldCell"; title = "Path to PEM/PFX"; ObjectID = "hJQ-Bb-VZh"; */
+"hJQ-Bb-VZh.title" = "Path to PEM/PFX";
+
+/* Class = "NSButtonCell"; title = "Extract PEM Certificate"; ObjectID = "s1Y-fU-LfD"; */
+"s1Y-fU-LfD.title" = "Extract PEM Certificate";
+
+/* Class = "NSMenu"; title = "Key/Cert Extractor"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "Key/Cert Extractor";

@@ -12,6 +12,15 @@
 		41BB4CE91F03006700B94B52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BB4CE81F03006700B94B52 /* ViewController.m */; };
 		41BB4CEB1F03006700B94B52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BB4CEA1F03006700B94B52 /* Assets.xcassets */; };
 		41BB4CEE1F03006700B94B52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BB4CEC1F03006700B94B52 /* Main.storyboard */; };
+		41BB4CFA1F03014700B94B52 /* NSVKeyCertExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BB4CF91F03014700B94B52 /* NSVKeyCertExtractor.m */; };
+		41BB4CFD1F03020A00B94B52 /* NSVCKeyCertExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BB4CFC1F03020A00B94B52 /* NSVCKeyCertExtractor.m */; };
+		41BB4CFF1F03136D00B94B52 /* ssl-encryption-icon-png-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BB4CFE1F03136D00B94B52 /* ssl-encryption-icon-png-24.png */; };
+		41BB4D021F03155700B94B52 /* success.icns in Resources */ = {isa = PBXBuildFile; fileRef = 41BB4D001F03155700B94B52 /* success.icns */; };
+		41BB4D031F03155700B94B52 /* error.icns in Resources */ = {isa = PBXBuildFile; fileRef = 41BB4D011F03155700B94B52 /* error.icns */; };
+		41BB4D061F0315B100B94B52 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BB4D041F0315B100B94B52 /* error.png */; };
+		41BB4D071F0315B100B94B52 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BB4D051F0315B100B94B52 /* success.png */; };
+		41BB4D091F031B7700B94B52 /* ssl-encryption-icon-png-24.icns in Resources */ = {isa = PBXBuildFile; fileRef = 41BB4D081F031B7700B94B52 /* ssl-encryption-icon-png-24.icns */; };
+		41BB4D0C1F032D8800B94B52 /* NSWCKeyExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BB4D0B1F032D8800B94B52 /* NSWCKeyExtractor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +31,20 @@
 		41BB4CE71F03006700B94B52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		41BB4CE81F03006700B94B52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		41BB4CEA1F03006700B94B52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		41BB4CED1F03006700B94B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41BB4CEF1F03006700B94B52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BB4CF81F03014700B94B52 /* NSVKeyCertExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSVKeyCertExtractor.h; sourceTree = "<group>"; };
+		41BB4CF91F03014700B94B52 /* NSVKeyCertExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSVKeyCertExtractor.m; sourceTree = "<group>"; };
+		41BB4CFB1F03020A00B94B52 /* NSVCKeyCertExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSVCKeyCertExtractor.h; sourceTree = "<group>"; };
+		41BB4CFC1F03020A00B94B52 /* NSVCKeyCertExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSVCKeyCertExtractor.m; sourceTree = "<group>"; };
+		41BB4CFE1F03136D00B94B52 /* ssl-encryption-icon-png-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ssl-encryption-icon-png-24.png"; sourceTree = "<group>"; };
+		41BB4D001F03155700B94B52 /* success.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = success.icns; sourceTree = "<group>"; };
+		41BB4D011F03155700B94B52 /* error.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = error.icns; sourceTree = "<group>"; };
+		41BB4D041F0315B100B94B52 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		41BB4D051F0315B100B94B52 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		41BB4D081F031B7700B94B52 /* ssl-encryption-icon-png-24.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "ssl-encryption-icon-png-24.icns"; sourceTree = "<group>"; };
+		41BB4D0A1F032D8800B94B52 /* NSWCKeyExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSWCKeyExtractor.h; sourceTree = "<group>"; };
+		41BB4D0B1F032D8800B94B52 /* NSWCKeyExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSWCKeyExtractor.m; sourceTree = "<group>"; };
+		41BB4D0F1F0337F400B94B52 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +85,12 @@
 				41BB4CEC1F03006700B94B52 /* Main.storyboard */,
 				41BB4CEF1F03006700B94B52 /* Info.plist */,
 				41BB4CE41F03006700B94B52 /* Supporting Files */,
+				41BB4CFB1F03020A00B94B52 /* NSVCKeyCertExtractor.h */,
+				41BB4CFC1F03020A00B94B52 /* NSVCKeyCertExtractor.m */,
+				41BB4CF81F03014700B94B52 /* NSVKeyCertExtractor.h */,
+				41BB4CF91F03014700B94B52 /* NSVKeyCertExtractor.m */,
+				41BB4D0A1F032D8800B94B52 /* NSWCKeyExtractor.h */,
+				41BB4D0B1F032D8800B94B52 /* NSWCKeyExtractor.m */,
 			);
 			path = KeyCertExtractor;
 			sourceTree = "<group>";
@@ -71,6 +98,12 @@
 		41BB4CE41F03006700B94B52 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41BB4D081F031B7700B94B52 /* ssl-encryption-icon-png-24.icns */,
+				41BB4D041F0315B100B94B52 /* error.png */,
+				41BB4D051F0315B100B94B52 /* success.png */,
+				41BB4D001F03155700B94B52 /* success.icns */,
+				41BB4D011F03155700B94B52 /* error.icns */,
+				41BB4CFE1F03136D00B94B52 /* ssl-encryption-icon-png-24.png */,
 				41BB4CE51F03006700B94B52 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -135,8 +168,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BB4D031F03155700B94B52 /* error.icns in Resources */,
+				41BB4D071F0315B100B94B52 /* success.png in Resources */,
+				41BB4D021F03155700B94B52 /* success.icns in Resources */,
+				41BB4D061F0315B100B94B52 /* error.png in Resources */,
 				41BB4CEB1F03006700B94B52 /* Assets.xcassets in Resources */,
+				41BB4CFF1F03136D00B94B52 /* ssl-encryption-icon-png-24.png in Resources */,
 				41BB4CEE1F03006700B94B52 /* Main.storyboard in Resources */,
+				41BB4D091F031B7700B94B52 /* ssl-encryption-icon-png-24.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +189,9 @@
 				41BB4CE91F03006700B94B52 /* ViewController.m in Sources */,
 				41BB4CE61F03006700B94B52 /* main.m in Sources */,
 				41BB4CE31F03006700B94B52 /* AppDelegate.m in Sources */,
+				41BB4CFA1F03014700B94B52 /* NSVKeyCertExtractor.m in Sources */,
+				41BB4CFD1F03020A00B94B52 /* NSVCKeyCertExtractor.m in Sources */,
+				41BB4D0C1F032D8800B94B52 /* NSWCKeyExtractor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +201,7 @@
 		41BB4CEC1F03006700B94B52 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				41BB4CED1F03006700B94B52 /* Base */,
+				41BB4D0F1F0337F400B94B52 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -208,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -250,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -260,12 +302,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4HK2NGRWKW;
 				INFOPLIST_FILE = KeyCertExtractor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nyteshade.KeyCertExtractor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -273,12 +318,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4HK2NGRWKW;
 				INFOPLIST_FILE = KeyCertExtractor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nyteshade.KeyCertExtractor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
