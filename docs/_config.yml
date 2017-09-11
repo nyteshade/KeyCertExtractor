@@ -1,3 +1,4 @@
 theme: jekyll-theme-architect
 show_downloads: true
-zip_url: https://goo.gl/Yk5B6J
+github:
+  zip_url: https://goo.gl/Yk5B6J
