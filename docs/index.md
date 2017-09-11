@@ -18,7 +18,7 @@ Overall, this is a hacked together GUI tool for extracting a cert file and priva
  
  ```js
  {
-   cert: fs.readFileSync('/path/to/file.pem').toString(),
-   key: fs.readFileSync('/path/to/file.key').toString()
+   "cert": fs.readFileSync('/path/to/file.pem').toString(),
+   "key": fs.readFileSync('/path/to/file.key').toString()
  }
  ```
