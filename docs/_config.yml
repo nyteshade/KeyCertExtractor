@@ -1,4 +1,3 @@
 theme: jekyll-theme-architect
-site:
-  github:
-    zip_url: https://github.com/nyteshade/KeyCertExtractor/blob/master/KeyCertExtractor.app.zip
+github:
+  zip_url: https://github.com/nyteshade/KeyCertExtractor/blob/master/KeyCertExtractor.app.zip
