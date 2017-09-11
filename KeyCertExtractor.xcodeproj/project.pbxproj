@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41BA04A01F1098F9007DC430 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BA049F1F1098F9007DC430 /* StoreKit.framework */; };
 		41BB4CE31F03006700B94B52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BB4CE21F03006700B94B52 /* AppDelegate.m */; };
 		41BB4CE61F03006700B94B52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BB4CE51F03006700B94B52 /* main.m */; };
 		41BB4CE91F03006700B94B52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BB4CE81F03006700B94B52 /* ViewController.m */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41BA049D1F109836007DC430 /* KeyCertExtractor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyCertExtractor.entitlements; sourceTree = "<group>"; };
+		41BA049F1F1098F9007DC430 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		41BB4CDE1F03006700B94B52 /* KeyCertExtractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyCertExtractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BB4CE11F03006700B94B52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41BB4CE21F03006700B94B52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,17 +55,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BA04A01F1098F9007DC430 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41BA049E1F1098F9007DC430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41BA049F1F1098F9007DC430 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		41BB4CD51F03006700B94B52 = {
 			isa = PBXGroup;
 			children = (
 				41BB4CE01F03006700B94B52 /* KeyCertExtractor */,
 				41BB4CDF1F03006700B94B52 /* Products */,
+				41BA049E1F1098F9007DC430 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +90,7 @@
 		41BB4CE01F03006700B94B52 /* KeyCertExtractor */ = {
 			isa = PBXGroup;
 			children = (
+				41BA049D1F109836007DC430 /* KeyCertExtractor.entitlements */,
 				41BB4CE11F03006700B94B52 /* AppDelegate.h */,
 				41BB4CE21F03006700B94B52 /* AppDelegate.m */,
 				41BB4CE71F03006700B94B52 /* ViewController.h */,
@@ -142,6 +156,14 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 4HK2NGRWKW;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -302,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyCertExtractor/KeyCertExtractor.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4HK2NGRWKW;
@@ -310,6 +333,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nyteshade.KeyCertExtractor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
@@ -318,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyCertExtractor/KeyCertExtractor.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4HK2NGRWKW;
@@ -326,6 +351,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nyteshade.KeyCertExtractor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
